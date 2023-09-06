@@ -48,5 +48,8 @@
     "tailwindcss": "^3.3.3",
     "terser": "^5.19.2",
     "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "pm2": "^5.3.0"
   }
 }
