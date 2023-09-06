@@ -20,9 +20,9 @@
     "test:safari": "npx playwright test --headed --project=webkit",
     "lint": "npx eslint --ext js ./src",
     "lint:fix": "npx eslint --ext js ./src --fix",
-    "dev": "vite --host",
+    "dev": "vite --port=3006",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --port=3000"
   },
   "devDependencies": {
     "@builder.io/partytown": "^0.8.0",
